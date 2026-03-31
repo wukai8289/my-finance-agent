@@ -1,0 +1,6 @@
+{
+  "id": "my-finance-agent",
+  "name": "my-finance-agent",
+  "description": "Agent project: my-finance-agent",
+  "model": "minimax-m2.5-free"
+}

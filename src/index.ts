@@ -32,6 +32,7 @@ const STOCK_DATABASE: Record<string, StockData> = {
   '比亚迪': { name: '比亚迪', code: '002594.SZ', market: 'A-SZ' },
   '五粮液': { name: '五粮液', code: '000858.SZ', market: 'A-SZ' },
   '中芯国际': { name: '中芯国际', code: '688981.SH', market: 'A-SH' },
+  '盘龙药业': { name: '盘龙药业', code: '002864.SZ', market: 'A-SZ' },
   '腾讯': { name: '腾讯控股', code: '0700.HK', market: 'HK' },
   '腾讯控股': { name: '腾讯控股', code: '0700.HK', market: 'HK' },
   '阿里巴巴': { name: '阿里巴巴', code: '9988.HK', market: 'HK' },
@@ -61,6 +62,7 @@ const INDUSTRY_MAP: Record<string, string> = {
   'Apple': '科技',
   'Tesla': '电动车',
   'NVIDIA': '芯片',
+  '盘龙药业': '中药',
 };
 
 const TREND_WEIGHTS = { up: 0.35, down: 0.25, sideways: 0.40 };
